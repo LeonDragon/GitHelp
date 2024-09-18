@@ -56,8 +56,9 @@ git commit -m "Initial commit: Vision AI App with Bootstrap UI"
 1. Replace `<your-username>` and `<repository-name>` with your GitHub username and the name you gave your repository.
 2. Run the following command to link your local repository to the GitHub repository:
 
-bash
+```sh
 git remote add origin https://github.com/<your-username>/<repository-name>.git
+```
 
 
 ### Push Your Code to GitHub
