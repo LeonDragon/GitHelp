@@ -8,15 +8,16 @@ This project is a Vision AI application with a Bootstrap-based user interface. F
 
 1. Open a terminal in your project directory.
 2. Run the following command to initialize a Git repository:
-bash
+```sh
 git init
-
+```
 
 ### Create a .gitignore File
 
 1. Create a file named `.gitignore` in your project root.
 2. Add the following content to the `.gitignore` file to prevent unnecessary files from being tracked by Git:
 
+```sh
 plaintext
 pycache/
 *.pyc
@@ -25,21 +26,22 @@ venv/
 *.log
 credentials/
 static/uploads/
+```
 
 
 ### Add and Commit Your Files
 
 1. Add your files to the staging area:
 
-bash
+```sh
 git add .
-
+```
 
 2. Commit your changes:
 
-bash
+```sh
 git commit -m "Initial commit: Vision AI App with Bootstrap UI"
-
+```
 
 ### Create a New Repository on GitHub
 
@@ -62,9 +64,9 @@ git remote add origin https://github.com/<your-username>/<repository-name>.git
 
 1. Push your code to GitHub:
 
-bash
+```sh
 git push -u origin master
-
+```
 
 2. Verify the push by going to your GitHub repository page and refreshing. You should see your code there.
 
