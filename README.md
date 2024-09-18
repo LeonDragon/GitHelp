@@ -78,3 +78,18 @@ git push -u origin master
 - **Project Documentation**: You can create a `README.md` file in your project root to provide information about your project, how to set it up, and how to use it.
 
 After following these steps, your Vision AI App with the updated Bootstrap UI should be successfully pushed to GitHub. You can now easily share your project or collaborate with others.
+
+## Exception Handling
+Open the Integrated Terminal in VS Code:
+You can open the terminal in VS Code by pressing Ctrl + ` (backtick) or by going to the menu and selecting Terminal > New Terminal.
+Navigate to Your Project Directory:
+If you're not already in your project directory, use the cd command to navigate there. For example:
+```sh
+     cd D:\Repos\VisionAPI
+```
+Remove the .git Directory:
+Use the Remove-Item cmdlet to delete the .git directory:
+
+```sh
+     Remove-Item -Recurse -Force .git
+```
