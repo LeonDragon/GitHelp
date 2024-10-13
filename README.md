@@ -25,6 +25,7 @@ venv/
 .env
 *.log
 credentials/
+secrets/
 static/uploads/
 ```
 
