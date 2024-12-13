@@ -94,3 +94,52 @@ After following these steps, your Vision AI App with the updated Bootstrap UI sh
 ```sh
      Remove-Item -Recurse -Force .git
 ```
+
+# How to Work with the `beta2` Branch
+
+Follow these steps to create, commit changes, and push to the `beta2` branch in your repository.
+
+## 1. Create the `beta2` Branch Locally
+If the `beta2` branch does not exist locally, create it:
+
+```bash
+git checkout -b beta2
+```
+
+## 2. Stage and Commit Your Changes
+If you have uncommitted changes, stage and commit them:
+
+```bash
+git add .
+git commit -m "Added files for beta2 branch"
+```
+
+## 3. Push the Branch to Remote
+Push the newly created branch to the remote repository and set it to track:
+
+```bash
+git push -u origin beta2
+```
+
+## 4. Verify the Push
+Go to your GitHub repository and check if the `beta2` branch now exists and contains your changes.
+
+---
+
+## If the Branch Already Exists Remotely
+If the `beta2` branch already exists on GitHub but not locally:
+
+```bash
+git fetch origin
+git checkout beta2
+```
+
+Then push your changes:
+
+```bash
+git add .
+git commit -m "Updated beta2 branch with new files"
+git push
+```
+
+
